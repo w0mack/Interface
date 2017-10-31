@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+	margin:0;
+	padding:0;
+	background-image:url("https://i.redd.it/sul2cpszgzuz.jpg");
+}
+ul {margin: 0px; list-style:none;padding:0px; }
+
+#title-box{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#month-box,#day-box,#year-box {
+  margin: 2px; 
+}
+
+#console-box{
+  position:absolute;
+  top:150px; 
+  right:48px;
+  height:400px;
+  width:300px;
+  border-radius:5px;
+  background-color:#D3D3D3D3;
+  color: #000;
+  font-family: monospace;
+  padding:6px; 
+}
+
+#master-box {
+ position:absolute; 
+ top: 150px;
+ left: 6%; 
+ width: 580px; 
+ height: 750px; 
+ background-color: #D3D3D3D3;
+ padding: 12px;
+ border-radius:5px;
+ display:flex;
+ flex-flow: column; 
+ align-content: center;
+ align-items: center;
+ justify-content:center; 
+}
+.master-month {
+  display:flex;
+  width: 420px; 
+  flex-flow: row wrap; 
+  border: dotted 1px;
+  border-radius:5px;
+  justify-content: center; 
+  align-items: center; 
+  align-content: center; 
+  margin: 0px; 
+}
+.month-box {
+  height:50px;
+  width:50px;
+  border-radius:1px;
+  background: #33adff;
+  border-radius:5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.days-tens {
+  list-style:none; 
+  display:flex;
+  width: 100px;
+  height: 200px; 
+  flex-flow: column; 
+  border: dotted 1px;
+  border-radius:5px;
+  float: left; 
+}
+.day-tens-box {
+  height:50px;
+  width:50px;
+  background: #33adff;
+  border-radius:5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.days-ones {
+  list-style:none; 
+  display:flex;
+  width: 250px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: dotted 1px;
+  border-radius:5px;
+  clear: right;  
+}
+.day-ones-box {
+  height:50px;
+  width:50px;
+  background: #33adff;
+  border-radius:5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.years-thousands {
+  list-style:none; 
+  display:flex;
+  width: 75px;
+  height: 200px; 
+  flex-flow: column; 
+  border: dotted 1px;
+  float:left; 
+}
+.year-thousands-box {
+  height:50px;
+  width:50px;
+  background: #33adff;
+  font-size: 20px;
+  border-radius:5px;
+  text-align: center;
+  margin: 10px;
+}
+.years-tens {
+  list-style:none; 
+  display:flex;
+  width: 210px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: dotted 1px;
+  float:left; 
+}
+.year-tens-box {
+  height:50px;
+  width:50px;
+  background: #33adff;
+  border-radius:5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.years-ones {
+  list-style:none; 
+  display:flex;
+  width: 210px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: dotted 1px; 
+  border-radius:5px;
+}
+.year-ones-box {
+  height:50px;
+  width:50px;
+  background: #33adff;
+  border-radius:5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.selected {
+  background-color: blue;
+  font-weight: bold; 
+}
